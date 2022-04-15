@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Masters</title>
+    
+    
+      <style>
+            *{
+                border: 0;
+                margin: 0;
+            }
+        
+            .browndiv{
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(99, 15, 15);
+                padding: 20px 100px 20px 100px;
+                border-bottom: 10px solid orangered;
+        
+            }
+
+            ul{
+                display: flex;
+                list-style-type: none;
+
+            }
+
+            li{
+                padding-right: 20px;
+            }
+            li a{
+                text-decoration: none;
+                font-size: 15px;
+                color: white;
+                font-family: 'times new romans';
+    
+            }
+            
+
+            li button{
+                background-color: red;
+                padding: 5px 20px 5px 20px;
+                border: none;
+                border-radius: 25px;
+            }
+            .frontend{
+                color: white;
+                font-family: 'Trebuchet MS';
+                font-size: 25px;
+            }
+            .master{
+                color: red;
+                font-family: vivaldi;
+            }
+        
+            form {
+            border: 3px solid #f1f1f1;
+            background: rgb(41, 41, 41);
+            margin: 0;
+            border: 0;
+            padding: 50px 100px 50px 100px;
+            
+            }
+
+            /* Full-width inputs */
+            input[type=text], input[type=password] {
+            width: 60%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-flex;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            
+            }
+
+            /* Set a style for all buttons */
+          button{
+            background-color: red;
+            padding: 5px 20px 5px 20px;
+            border: none;
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+          }
+            
+
+            /* Add a hover effect for buttons */
+           .button:hover {
+                     opacity: 0.8;
+              }
+
+
+                /* Add padding to containers */
+                    .container {
+                    padding: 20px;
+        
+                    }
+            .Footermain{
+                border: 3px solid #f1f1f1;
+                background: rgb(19, 19, 19);
+                margin: 0;
+                border: 0;
+                padding: 20px 50px 20px 50px;
+                font-size: 14px;
+                color: white;
+                justify-content: space-between;
+                display: flex;
+               
+                }
+
+              .contact{
+                color: rgb(255, 251, 251);
+                font-size: 15px;
+                text-align: right;
+                
+              }
+              label{
+                color: white;
+                
+              }
+              .links{
+                  display: flex;
+                  color: white;
+                  padding: 10px;
+                  list-style-type: none
+              }
+
+              .links li{ 
+                padding-right: 20px;
+              }
+
+            .links a{
+              color: white;
+            }
+
+         .links a:hover{
+              background-color: rgb(252, 249, 249);
+              color: rgb(5, 5, 5);
+             }
+                                  
+                        
+                        
+                        
+      </style>
+
+
+    <body>
+        <div class="main">
+            <div class="browndiv">
+                <div class="frontendmasters">
+                    <h1><b class="frontend">Frontend</b><i class="master">Masters</i></h1>
+                </div>
+               
+                    <ul class="links">
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">login</a></li>
+                        <li><button><a href="#">Join Now</a></button></li>
+                    </ul>
+                </div>
+            </div>
+        
+
+        <form action="action_page.php" method="post">
+            <center>
+            <div class="container">
+                <label for="username"><b>Username or Email</b></label><br>
+                <input type="text" placeholder="Username or Email" name="username" required>
+                <br>
+            
+                <label for="password"><b>Password</b></label><br>
+                <input type="password" placeholder="Enter Password" name="password" required><br>
+            
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label><br>
+                <br>
+                <button type="submit">Login</button>
+                <a href="#">Forgot password?</a>
+            </div>
+      
+            </center>
+         </form>
+
+
+        <footer class="Footermain">
+            <div class="Footermain">
+                <h1><b class="frontend">Frontend</b><i class="master">Masters</i></h1>
+                <br>
+                
+                    <ul class="links">
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Teachers</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">login</a></li>
+                        <li><a href="#">Join Now</a></li>
+                    </ul>
+                </div>
+                <br>
+              
+                <div class="native-app-links"><a href="#">
+                  <img src="" height="45" width="135"></a>
+                
+                  <a href="#"><img src="" height="66" width="170"></a>
+              </div>
+            <br>
+              
+                <div>
+                  <span>Email: <a href="rachieknoxie@gmail.com">support@frontendmasters.com</a></span>
+                </div>
+            
+                <br>
+               <div>
+                <ul class="links">
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+             
+          <br>
+              
+                <div class="copyright">
+                  © 2022 Frontend Masters
+                  ·
+                  <a href="#">Terms of Service</a>
+                  ·
+                  <a href="#">Privacy Policy</a>
+                </div>
+          
+                <div>
+                  Frontend Masters is proudly made in Uganda, MSK
+                </div>
+              
+        </footer>
+        
+</body>
+</html>
