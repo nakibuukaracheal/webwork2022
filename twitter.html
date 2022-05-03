@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <style>
+        ul{
+                display: flex;
+                list-style-type: none;
+
+            }
+            li{
+                padding-right: 10px;
+            }
+            li a{
+                text-decoration: none;
+                font-size: 14px;
+                color: rgb(65, 64, 64);
+                font-family: 'Arial';
+    
+            }
+            .links2{
+                text-decoration: none;
+                font-size: 14px;
+                color: rgb(65, 64, 64);
+                font-family: 'arial';
+                 
+            }
+           
+            button[type=gmail]{
+                width: 60%;
+                padding: 15px 20px;
+                margin: 8px 0;
+                display: inline-flex;
+                border: 1px solid #ccc;
+                border-radius: 30px;
+                background-color: rgb(250, 251, 252);
+                cursor: pointer;
+                color: black;
+            
+
+            }
+
+            button[type=Apple]{
+                width: 60%;
+                padding: 15px 20px;
+                margin: 8px 0;
+                display: inline-flex;
+                border: 1px solid #ccc;
+                border-radius: 30px;
+                background-color: rgb(250, 251, 252);
+                cursor: pointer;
+                color: black;
+            }
+
+            button[type=signin]{
+                width: 60%;
+                padding: 15px 20px;
+                margin: 8px 0;
+                display: inline-flex;
+                border: 1px solid #ccc;
+                border-radius: 30px;
+                background-color: transparent;
+                cursor: pointer;
+                color: rgb(38, 122, 248);
+            
+
+            }
+            
+
+            /* Add a hover effect for buttons */
+             
+            .button:hover {
+                     opacity: 0.8;
+              }
+
+
+
+            button[type=phone]{
+            width: 60%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-flex;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            background-color: rgb(38, 122, 248);
+            cursor: pointer;
+            color: white;
+            }
+
+           
+            body{
+                background: black;
+            }
+
+            h1{
+                color: rgb(187, 185, 185);
+                font-size: 50px;
+                font-family: 'Arial';
+
+            }
+
+            h2{
+                color: rgb(187, 185, 185);
+                
+                
+            }
+            h3{
+                color: white;
+                text-align: center;
+                width: 45%;
+            }
+             h4{
+                 color: white;
+                 font-size: 10px;
+                 width: 49%;
+                 font-family: 'arial';
+             }
+             a{
+                 color: rgb(38, 122, 248);
+                 text-decoration: none;
+             }
+
+             a:hover{
+                 text-decoration: underline;
+             }
+
+             .links a:hover{
+              color: rgb(20, 120, 202);
+             }
+
+             .main-div{
+                  display: flex;
+                  justify-content: space-between;
+                  display: flex;
+                }
+
+            .first-div{
+                 flex-basis: 45%;
+                 border: rgb(0, 0, 0) solid 5px;
+                }
+
+            .second-div{
+                flex-basis: 45%;
+                border: rgb(0, 0, 0) solid 20px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="first-div">
+            <img src="twt.PNG" id="logo"/>
+        </div> 
+
+        <div class="second-div">
+                <h1>Happening now</h1>
+                <h2>Join Twitter Today.</h2> 
+            <form action="action_page.php" method="post">
+                <div class="container">
+                    <button type="gmail">Sign up with gmail</button>
+                    <br>    
+                    <button type="Apple">Sign up With Apple</button>
+                    <h3>or</h3>
+                    <button type="phone">Sign up with Phone or Gmail</button>
+                    <h4>By signing up, you are agreeing with the <a href="#">Terms & services</a> and <a href="#">Privacy Policy</a>, including <a href="#"> Cookie Use</a></h4>
+                    <h3>Already have an Account?</h3>
+                    <button type="signin">Sign in</button>
+                </div>
+            </form>
+        </div>    
+    </div>
+        <ul class="links">
+                      
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms & Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Accesibility</a></li>
+            <li><a href="#">Ads info</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Brand Resources</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Twitter for Business</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Directory</a></li>
+            
+        </ul>
+
+        <ul class="links2">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">@2022Twitter, Inc</a></li>
+        </ul>
+
+
+</body>
+</html>
