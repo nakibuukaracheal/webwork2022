@@ -26,6 +26,8 @@
                 font-size: 14px;
                 color: rgb(65, 64, 64);
                 font-family: 'arial';
+                display: flex;
+                text-align: center;
                  
             }
            
@@ -33,7 +35,6 @@
                 width: 60%;
                 padding: 15px 20px;
                 margin: 8px 0;
-                display: inline-flex;
                 border: 1px solid #ccc;
                 border-radius: 30px;
                 background-color: rgb(250, 251, 252);
@@ -47,19 +48,19 @@
                 width: 60%;
                 padding: 15px 20px;
                 margin: 8px 0;
-                display: inline-flex;
                 border: 1px solid #ccc;
                 border-radius: 30px;
                 background-color: rgb(250, 251, 252);
                 cursor: pointer;
                 color: black;
+                text-decoration: bold;
+
             }
 
             button[type=signin]{
                 width: 60%;
                 padding: 15px 20px;
                 margin: 8px 0;
-                display: inline-flex;
                 border: 1px solid #ccc;
                 border-radius: 30px;
                 background-color: transparent;
@@ -74,6 +75,7 @@
              
             .button:hover {
                      opacity: 0.8;
+                     
               }
 
 
@@ -82,13 +84,14 @@
             width: 60%;
             padding: 15px 20px;
             margin: 8px 0;
-            display: inline-flex;
             border: 1px solid #ccc;
             border-radius: 30px;
             background-color: rgb(38, 122, 248);
             cursor: pointer;
             color: white;
+                  
             }
+    
 
            
             body{
@@ -98,25 +101,32 @@
             h1{
                 color: rgb(187, 185, 185);
                 font-size: 50px;
-                font-family: 'Arial';
+                font-family: 'Adobe carslon pro';
 
             }
 
             h2{
                 color: rgb(187, 185, 185);
+                font-size: 20px;
                 
                 
             }
             h3{
                 color: white;
                 text-align: center;
-                width: 45%;
+                width: 60%;
+                font-size: 15px;
             }
              h4{
                  color: white;
                  font-size: 10px;
-                 width: 49%;
+                 width: 58%;
                  font-family: 'arial';
+             }
+
+             h5{
+                 color: white;
+                 font-size: 12px;
              }
              a{
                  color: rgb(38, 122, 248);
@@ -135,6 +145,7 @@
                   display: flex;
                   justify-content: space-between;
                   display: flex;
+                 
                 }
 
             .first-div{
@@ -145,6 +156,7 @@
             .second-div{
                 flex-basis: 45%;
                 border: rgb(0, 0, 0) solid 20px;
+                font-weight: bold;
             }
 
 
@@ -166,6 +178,7 @@
         </div> 
 
         <div class="second-div">
+                <img src="ttt.png">
                 <h1>Happening now</h1>
                 <h2>Join Twitter Today.</h2> 
             <form action="action_page.php" method="post">
@@ -176,7 +189,7 @@
                     <h3>or</h3>
                     <button type="phone">Sign up with Phone or Gmail</button>
                     <h4>By signing up, you are agreeing with the <a href="#">Terms & services</a> and <a href="#">Privacy Policy</a>, including <a href="#"> Cookie Use</a></h4>
-                    <h3>Already have an Account?</h3>
+                    <h5>Already have an Account?</h5>
                     <button type="signin">Sign in</button>
                 </div>
             </form>

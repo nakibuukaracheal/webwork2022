@@ -34,7 +34,7 @@ font-size: 30px
     }
 
     .first-div{
-        border: green solid 7px;
+        border: rgb(44, 128, 44) solid 7px;
         flex-basis: 20%;
     }
 
